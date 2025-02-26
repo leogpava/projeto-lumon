@@ -8,7 +8,7 @@
 }
 
 body {
-    background-image: url(../images/lumonpeqdark.jpg);
+    background-image: url(../images/numbers.gif);
     background-size: cover;
 
 }
@@ -42,8 +42,8 @@ div#img {
 
 div#img:hover {
     cursor: pointer;
-    width: 320px;
-    height: 210px;
+    width: 305px;
+    height: 205px;
 }
 
 section > h1 {
@@ -120,7 +120,7 @@ button:hover {
 
 div.img {
     position: absolute;
-    background-image: url(../images/ruptura.webp);
+    background-image: url(../images/severancenmbs.gif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
