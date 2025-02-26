@@ -30,8 +30,8 @@ main {
 }
 
 div#img {
-    width: 300px;
-    height: 200px;
+    width: 250px;
+    height: 150px;
     background-image: url(../images/bazlumon.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -42,8 +42,8 @@ div#img {
 
 div#img:hover {
     cursor: pointer;
-    width: 305px;
-    height: 205px;
+    width: 255px;
+    height: 155px;
 }
 
 section > h1 {
@@ -68,7 +68,7 @@ button {
     float: right;
     width: 90%;
     height: 60%;
-    background: #132e24;
+    background: #131e2e;
     color: white;
     border: none;
     padding: 20px;
@@ -83,8 +83,9 @@ button {
 }
 
 button:hover {
-    background:  #15815a;
-    color:  #132e24;
+    background:  #d4ecfc;
+    color:  #131e2e;
+    padding: 23px;
 }
 
 .input-box {
