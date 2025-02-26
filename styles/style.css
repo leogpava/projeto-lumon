@@ -17,8 +17,8 @@ main {
     background: rgba(255, 255, 255, 0.2);
     border-radius: 16px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     border: 1px solid rgba(255, 255, 255, 0.3);
     width: 40vw;
     height: 40vh;
@@ -47,17 +47,88 @@ div#img:hover {
 }
 
 section > h1 {
+    left: 27%;
     color: white;
     position: relative;
     float: none;
     text-align: center;
     margin-bottom: 20px;
+    font-weight: lighter;
 }
 
 form {
     float: right;
     color: white;
-    width: 40%;
+    width: 50%;
     height: 80%;
+    padding: 10px;
+}
+
+button {
+    float: right;
+    width: 90%;
+    height: 60%;
+    background: #132e24;
+    color: white;
+    border: none;
     padding: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.562);
+    font-size: 1em;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+
+button:hover {
+    background:  #15815a;
+    color:  #132e24;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    float: right;
+    margin-right: 70px;
+    width: calc(90% - 60px);
+    padding: 10px;
+    border-radius: 15px;
+    color: rgb(20, 20, 20);
+    background-color: rgba(255, 255, 255, 0.863);
+    border: none;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.562);
+}
+
+.input-box label {
+    float: right;
+    position: absolute;
+    right: 10px;
+    top: 85%;
+    transform: translateY(-50%);
+    color: white;
+    pointer-events: none;
+}
+
+.input-box label#senha {
+    right: 20px;
+}
+
+div.img {
+    position: absolute;
+    background-image: url(../images/ruptura.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    float: left;
+    width: 50%;
+    height: 100%;
+    top: 50%;
+    left: 0%;
+    border-radius: 15px 0px 0px 15px;
+    transform: translateY(-50%);
 }
