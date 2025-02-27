@@ -5,11 +5,10 @@
     padding: 0;
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
 }
 
 body {
-    background-image: url(../images/numbers.gif);
+    background-image: url(../images/lumonpeqdark.jpg);
     background-size: cover;
 
 }
@@ -31,8 +30,8 @@ main {
 }
 
 div#img {
-    width: 250px;
-    height: 150px;
+    width: 300px;
+    height: 200px;
     background-image: url(../images/bazlumon.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -43,8 +42,8 @@ div#img {
 
 div#img:hover {
     cursor: pointer;
-    width: 255px;
-    height: 155px;
+    width: 320px;
+    height: 210px;
 }
 
 section > h1 {
@@ -69,7 +68,7 @@ button {
     float: right;
     width: 90%;
     height: 60%;
-    background: #131e2e;
+    background: #132e24;
     color: white;
     border: none;
     padding: 20px;
@@ -84,9 +83,8 @@ button {
 }
 
 button:hover {
-    background:  #d4ecfc;
-    color:  #131e2e;
-    padding: 23px;
+    background:  #15815a;
+    color:  #132e24;
 }
 
 .input-box {
@@ -122,7 +120,7 @@ button:hover {
 
 div.img {
     position: absolute;
-    background-image: url(../images/severancenmbs.gif);
+    background-image: url(../images/ruptura.webp);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;

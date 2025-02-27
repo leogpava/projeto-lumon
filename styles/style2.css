@@ -3,7 +3,6 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 header {
@@ -14,46 +13,50 @@ header {
 }
 
 .img {
-    width: 300px;
+    width: 250px;
     height: 150px;
     position: absolute;
     top: 2%;
-    left: 41%;
-    transform: translate(-50% -50%);
+    left: 50%;
+    transform: translateX(-50%);
     background-image: url(../images/bazlumon.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center center;
 }
 
-
 body {
-    background-color: rgb(212, 212, 212);
+    background: radial-gradient(circle, white, rgb(184, 184, 184));
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 
 .bloco {
-    position: relative;
-    left: 6%;
     display: inline-block;
-    background-color: rgb(85, 34, 34);
-    width: 500px;
-    height: 600px;
+    width: 400px;
+    height: 500px;
     margin: 20px;
     padding: 20px;
     border-radius: 50px;
-    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.356);
+    box-shadow: 3px 7px 10px rgba(0, 0, 0, 0.356);
 }
 
 div#bloco1 {
-    background-color: rgb(21, 21, 73);
+    background: radial-gradient(circle, rgb(68, 111, 252), rgb(0, 17, 116));
 }
 
 div#bloco2 {
-    background-color: rgb(85, 13, 13);
+    background: radial-gradient(circle, rgb(252, 68, 68), rgb(116, 0, 0));
+    position: relative;
 }
 
 div#bloco3 {
-    background-color: rgb(100, 65, 0);
+    background: radial-gradient(circle, rgb(252, 203, 68), rgb(116, 62, 0));
 }
 
 a {
@@ -61,4 +64,69 @@ a {
     color: rgb(255, 255, 255);
     border-radius: 30px;
     text-decoration: none;
+}
+
+p {
+    font-weight: lighter;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+h2 {
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 10px;
+}	
+
+h3 {
+    margin-top: 450px;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#img1 {
+    background-image: url(../images/MOFO.png);
+    top: 65%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+}
+
+div#img2 {
+    background-image: url(../images/Bazinga\ MAX\ PNG\ 2023.png);
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div#img3 {
+    background-image: url(../images/porão\ cosmic.png);
+    top: 65%;
+    left: 24%;
+    transform: translate(-50%, -50%);
+}
+
+div.imgblock {
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+section.sec1 {
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    height: 500px;
+}
+
+p#art {
+    text-indent: 10px;
+    display: inline-block;
+    margin-top: 10px;
+    color: white;
+    padding: 50px;
+    width: 400px;
+    text-align: justify;
 }
