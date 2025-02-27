@@ -1,0 +1,93 @@
+@charset "UTF-8";
+/* CELULAR */
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+body {
+    background-image: url(../images/backgroundphone.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+main {
+    width: 80vw;
+    height: 40vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+}
+
+    div#img {
+        width: 230px;
+        height: 130px;
+        background-image: url(../images/bazlumon.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin: auto;
+        margin-top: 25px;
+        transition: 0.3s;
+    }
+    
+    div#img:hover {
+        cursor: pointer;
+        width: 255px;
+        height: 155px;
+    }
+
+    form {
+        float: bottom;
+        width:100%;
+    }
+
+    section > h1 {
+        left: 2%;
+        color: white;
+        position: relative;
+        float: none;
+        text-align: center;
+        margin-bottom: 20px;
+        font-weight: lighter;
+        }
+    }
+
+    div.img {
+        position: absolute;
+        background-image: url(../images/);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        float: left;
+        width: 100%;
+        height: 50%;
+        top: 25%;
+        left: 0%;
+        border-radius: 15px 15px 0px 0px;
+        transform: translateY(-50%);
+    }
+
+    button {
+        background-color: rgb(10, 37, 28);
+    }
+
+    button:hover {
+        background-color: rgb(246, 250, 237);
+        color: rgb(10, 37, 28);
+    }
+
+
+/* TABLET */
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+
+    
+}
+
+
+/* TV */
+
+
+@media screen and (min-width: 1200px) {
+   
+}
