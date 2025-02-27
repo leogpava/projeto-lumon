@@ -130,3 +130,15 @@ p#art {
     width: 400px;
     text-align: justify;
 }
+
+div#dado {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 115%;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    background-image: url(../images/rollingdice.gif);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
