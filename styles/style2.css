@@ -5,6 +5,7 @@
     padding: 0px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 header {
     background-color: black;
     width: 100%;
@@ -74,17 +75,16 @@ a {
     text-decoration: none;
 }
 
-p {
+article > p {
     font-weight: lighter;
     font-size: 20px;
     text-align: center;
-    margin-top: 0px;
+    margin-top: 10px;
 }
 
-h2 {
+article > h2 {
     font-weight: normal;
     text-align: center;
-    margin-bottom: 10px;
 }	
 
 h3 {
@@ -151,7 +151,7 @@ div#dir:hover {
     cursor: pointer;
 }
 
-article > p {
+article#dark > p {
     margin-top: 50px;
 }
 
@@ -180,8 +180,9 @@ p#art2 {
 }
 
 footer {
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(0, 0, 0);
     color: white;
-    padding: 10px;
+    text-align: center;
+    padding: 15px;
 }
 
