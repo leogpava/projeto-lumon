@@ -35,6 +35,7 @@ header {
 
 body {
     background: radial-gradient(circle, white, rgb(184, 184, 184));
+    overflow-x: hidden;
 }
 
 nav {
@@ -94,6 +95,16 @@ h3 {
     margin-bottom: 10px;
 }
 
+article {
+    position: relative;
+}
+
+article .img {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}
 
 div#img2 {
     background-image: url(../images/Bazinga\ MAX\ PNG\ 2023.png);

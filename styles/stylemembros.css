@@ -1,0 +1,126 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Libre+Barcode+39+Extended+Text&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+    margin-top: 0vh; /* Adicionar margem superior para evitar que o conteúdo fique atrás do header fixo */
+}
+
+header {
+    background-color: rgb(8, 8, 8);
+    position: fixed;
+    width: 100%;
+    height: 15vh;
+    overflow: hidden;
+    z-index: 1000; /* Garantir que o header fique acima de outros elementos */
+}
+
+div#img1 {
+    position: absolute;
+    background: url(../images/bazlumon.png) no-repeat center center;
+    background-size: contain;
+    height: 150px;
+    width: 200px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: 0.3s;
+}
+
+div#img1:hover {
+    height: 155px;
+    width: 205px;
+    cursor: pointer;
+}
+
+section {
+    background-color: rgb(102, 102, 102);
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+
+article {
+    position: relative;
+    background: radial-gradient(circle, white, rgb(184, 184, 184));
+    width: 100%;
+    height: 500px;
+    padding: 30px;
+    border: 2px solid rgb(54, 54, 54);
+    overflow: hidden;
+}
+
+article .black-block {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    transform: translateY(-50%);
+    width: 800px;
+    height: 550px;
+    background: url(../images/members/shrek.png) no-repeat top center;
+    background-size: cover;
+}
+
+article > p {
+    margin-left: 30px;
+    width: 40%;
+    height: 100%;
+    font-size: 1.2em;
+    text-align: justify;
+}
+
+article > h1 {
+    font-family: "Libre Barcode 39 Extended Text"; 
+    margin-left: 30px;
+    font-size: 5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+article .black-block#legion {
+    background: url(../images/members/THE\ FIST\ LOGO.png) no-repeat center center;
+    background-size: contain;
+    top: 46%;
+}
+
+article .black-block#mofo {
+    background: url(../images/members/MOFO.png) no-repeat center center;
+    background-size: contain;
+}
+
+article .black-block#delta {
+    background: url(../images/members/Delta.png) no-repeat center center;
+    background-size: contain;
+}
+
+article .black-block#galaxy {
+    background: url(../images/members/galaxy.png) no-repeat center center;
+    background-size: contain;
+}
+
+article .black-block#elliott {
+    background: url(../images/members/ladykorn.png) no-repeat center center;
+    background-size: contain;
+}
+
+article .black-block#saiyan {
+    background: url(../images/members/saiyan.webp) no-repeat center center;
+    background-size: contain;
+}
+
+article .black-block#pe {
+    background: url(../images/members/pe.png) no-repeat center center;
+    background-size: contain;
+}
+
+article .black-block#jp {
+    background: url(../images/members/jp.png) no-repeat center center;
+    background-size: contain;
+}
+
